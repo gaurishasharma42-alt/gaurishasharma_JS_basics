@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="#">Portfolio</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="bg-dark text-white text-center p-5">
+<h1>gaurisha sharma</h1>
+<p>BCA Student</p>
+<a href="#contact" class="btn btn-light">Get In Touch</a>
+</div>
+
+<div class="container mt-4" id="about">
+<div class="row">
+
+<div class="col-md-4 text-center">
+<img src="C:\Users\Gaurisha\Downloads\WhatsApp Image 2026-04-16 at 12.40.56 AM.jpeg" alt="Profile Image" class="img-fluid rounded-circle">
+</div>
+
+<div class="col-md-8">
+<h2 class="mb-4 text-white">About Me</h2>
+
+<div class="p-4" style="background:#111; color:white; border-radius:15px; border:1px solid black;">
+<p>
+I am currently pursuing a Bachelor of Computer Applications along with a specialization in Data Analytics, focusing on building strong technical expertise in programming, web technologies, and data-driven problem solving. Through internships and academic projects, I have gained hands-on exposure to data preprocessing, visualization, debugging, testing, UI implementation, and analytical reporting using real-world datasets and structured workflows.
+</p>
+
+<button class="btn btn-outline-light mt-3" data-bs-toggle="collapse" data-bs-target="#more">
+Read More
+</button>
+
+<div id="more" class="collapse mt-3">
+<p>
+I actively build projects to strengthen my practical knowledge and continuously explore new tools and technologies. My goal is to become a well-rounded developer with strong problem-solving skills and real-world experience in both development and analytics.
+</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 mt-4">
+<div class="p-4 h-100" style="background:#111; color:white; border-radius:15px; border:1px solid #333;">
+<h4 class="mb-3">Quick Info</h4>
+<p>📍 Jaipur, Rajasthan, India</p>
+<p>🎓 BCA + Data Analytics</p>
+<p>📧 gaurishasharma7778@gmail.com</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="container mt-4" id="skills">
+<h3 class="text-center mb-3">Skills</h3>
+
+<table class="table table-bordered table-hover text-center">
+<thead class="table-dark">
+<tr>
+<th>Category</th>
+<th>Skills</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><b>Web Development</b></td>
+<td>HTML, CSS, Bootstrap, JS</td>
+</tr>
+
+<tr>
+<td><b>Programming</b></td>
+<td>JavaScript, Python, C</td>
+</tr>
+
+<tr>
+<td><b>Database</b></td>
+<td>SQL</td>
+</tr>
+
+<tr>
+<td><b>Tools</b></td>
+<td>VS Code, Turbo C++, Jupyter Notebook</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="container mt-5">
+<h3 class="mb-4">Certificates</h3>
+
+<div class="row">
+
+<div class="col-md-3 mb-4 text-center">
+<div class="p-3 h-100" style="border:1px solid #ddd; border-radius:10px;">
+<img src="C:\Users\Gaurisha\OneDrive\Pictures\Screenshots\Screenshot 2026-01-05 221756.png" alt="Certificate" class="img-fluid mb-3">
+<h5>Introduction to Computers</h5>
+<p>Basic understanding of computer systems and fundamentals.</p>
+</div>
+</div>
+
+<div class="col-md-3 mb-4 text-center">
+<div class="p-3 h-100" style="border:1px solid #ddd; border-radius:10px;">
+<img src="C:\Users\Gaurisha\OneDrive\Desktop\5995fb57185eee0cec79cc9aa30aa337dc904765.png" alt="Certificate" class="img-fluid mb-3">
+<h5>SEO</h5>
+<p>Learned search engine optimization and ranking techniques.</p>
+</div>
+</div>
+
+<div class="col-md-3 mb-4 text-center">
+<div class="p-3 h-100" style="border:1px solid #ddd; border-radius:10px;">
+<img src="C:\Users\Gaurisha\OneDrive\Desktop\SSGI-Baldrige-Data-Analytics-Certification.png" alt="Certificate" class="img-fluid mb-3">
+<h5>Data Science</h5>
+<p>Introduction to data analysis, models, and data handling.</p>
+</div>
+</div>
+
+<div class="col-md-3 mb-4 text-center">
+<div class="p-3 h-100" style="border:1px solid #ddd; border-radius:10px;">
+<img src="C:\Users\Gaurisha\OneDrive\Desktop\Introduction_to_Data_Visualization.png" alt="Certificate" class="img-fluid mb-3">
+<h5>Art of Data Visualization</h5>
+<p>Learned to represent data using charts and visual storytelling.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="container mt-5 p-4" style="background-color:#111; color:white; border-radius:10px;" id="contact">
+<h3 class="mb-4">Contact Me</h3>
+
+<div id="alert"></div>
+
+<form onsubmit="return validateForm()">
+<div class="row">
+<div class="col-md-6 mb-3">
+<input type="text" id="name" class="form-control" placeholder="Your Name">
+</div>
+
+<div class="col-md-6 mb-3">
+<input type="text" id="email" class="form-control" placeholder="Your Email">
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6 mb-3">
+<input type="text" id="mobile" class="form-control" placeholder="Mobile Number">
+</div>
+
+<div class="col-md-6 mb-3">
+<input type="text" class="form-control" placeholder="Subject">
+</div>
+</div>
+
+<div class="mb-3">
+<textarea id="msg" class="form-control" rows="4" placeholder="Your Message"></textarea>
+</div>
+
+<button class="btn btn-light">Send Message</button>
+</form>
+</div>
+
+<footer class="mt-5 text-center p-4" style="background-color:#000; color:white;">
+<p class="mb-1">Gaurisha Sharma</p>
+<p class="mb-2">Email: gaurishasharma7778@gmail.com</p>
+<p class="mb-0">Open to internships and opportunities</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+function validateForm()
+{
+
+let name=document.getElementById("name").value;
+let email=document.getElementById("email").value;
+let mobile=document.getElementById("mobile").value;
+let msg=document.getElementById("msg").value;
+
+let namePattern=/^[A-Za-z ]{3,}$/;
+let emailPattern=/^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+let mobilePattern=/^[0-9]{10}$/;
+
+let error="";
+
+if(!namePattern.test(name))
+{ 
+error+="Enter valid name (min 3 letters)<br>";
+}
+
+if(!emailPattern.test(email))
+{
+error+="Enter valid email<br>";
+}
+
+if(!mobilePattern.test(mobile))
+{
+error+="Enter valid 10 digit mobile number<br>";
+}
+
+if(msg.length<10)
+{
+error+="Message must be at least 10 characters<br>";
+}
+
+if(error!="")
+{
+
+document.getElementById("alert").innerHTML=
+"<div class='alert alert-danger'>"+error+"</div>";
+
+return false;
+
+}
+
+else
+{
+
+document.getElementById("alert").innerHTML=
+"<div class='alert alert-success'>Form Submitted Successfully ✔</div>";
+
+document.querySelector("form").reset();
+
+return false;
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
